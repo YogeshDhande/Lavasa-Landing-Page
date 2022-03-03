@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shizuru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #55E6C1;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+header{
+    background: url('./LAVASA.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+}
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+header .content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+header .content h1{
+    font-size: 6rem;
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+header .content p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #eee;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+header .content a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    background: #55E6C1;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    border:2px solid #55E6C1;
+    margin-top: 1rem;
+    transition: .4s;
+}
+header .content a:hover{
+    background: transparent;
+    color: #55E6C1;
+    border:4px solid #55E6C1;
+}
+/*------------------------
+   about Lavasa Tourism
+------------------------*/
+.about{
+    margin: 1rem;
+}
+.about p{
+    padding:1rem  4rem;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+.about p span{
+    color: #55E6C1;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/*------------------------
+   place to visit
+------------------------*/
+.visit .sec-heading{
+    background: #eee;
+    margin: 0;
+    padding: 1rem 0rem 0rem 2rem;
+}
+.visit-body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    padding: 2rem 1rem;
+    width: 100%;
+}
+.visit-body .places{
+    width: 280px;
+    height: 220px;
+    background: #55E6C1;
+    border-radius: 0.5rem;
+    /* border: 4px solid #eee; */
+    transition: .3s;
+    margin: 0.5rem;
+}
+.visit-body .places:hover{
+    box-shadow: 6px 8px 54px -10px rgba(0,0,0,0.63);
+    transform: translateY(2px);
+}
+.visit-body .places h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #eee;
+    padding:2px 0;
+    border-bottom: 4px solid #55E6C1;
+}
+.visit-body .places img{
+   width: 100%; 
+   height: 81%;
+   border-radius:0 0  0.5rem 0.5rem;
+}
+/*------------------------
+   Lavasa Photo
+------------------------*/
+.pics .img-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.pics .img-body .images{
+    height: 180px;
+    width: 280px;
+    margin:0 0.5rem;
+    transition: .2s;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.pics .img-body .images:hover{
+   border: 6px solid #55E6C1;
+   transform: translateY(-10px);
+}
+.pics .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+/*------------------------
+        FAQs
+------------------------*/
+.faq-que .faqs{
+    margin: 1rem;
+    background: #eee;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.faq-que .faqs .questions{
+    padding: 0 1rem;
+}
+.faq-que .faqs .questions h3{
+    /* padding: ; */
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.faq-que .faqs .questions p{
+    padding: 0 1rem;
+    color: #55E6C1;
+}
